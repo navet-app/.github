@@ -1,0 +1,46 @@
+name: Bug report
+description: Report a reproducible problem in a Navet project.
+title: ""
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Search existing issues before submitting. For help, see [support resources](https://github.com/navet-app/.github/blob/main/SUPPORT.md). Report security vulnerabilities privately to security@navet.app. Remove credentials and personal information from logs and screenshots.
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: Which version of this project are you using?
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Include installation method, connected provider and version, browser or device, and other relevant details.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce
+      description: Explain how to reproduce the problem.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Logs and screenshots
+      description: Include relevant evidence with credentials and personal information removed.

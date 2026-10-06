@@ -1,0 +1,14 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Navet questions and ideas
+    url: https://github.com/navet-app/navet/discussions
+    about: Get help or discuss improvements to Navet.
+  - name: Navet Cards questions and ideas
+    url: https://github.com/navet-app/navet-cards/discussions
+    about: Get help or discuss improvements to the custom Home Assistant cards.
+  - name: Community chat
+    url: https://discord.gg/fJWZwSyfVf
+    about: Ask questions in the Navet Discord community.
+  - name: Security vulnerability
+    url: https://github.com/navet-app/.github/blob/main/SECURITY.md
+    about: Follow the private vulnerability reporting process.
